@@ -169,3 +169,9 @@ footer {
     color: var(--secondarytextcolor);
     font-style: italic;
 }
+
+
+/* Demonstrations abschnitt */
+#test1{
+    background-color: var(--primarycolor);
+}

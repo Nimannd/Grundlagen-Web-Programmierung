@@ -3,11 +3,6 @@ Wir gehen bei dieser Beispileseite mal durch folgende CSS Themen durch:
 
 
 1. Einführung in CSS
-    - Was ist CSS?
-        Systax, basiert auf json
-    - Warum ist CSS wichtig?
-    - Wie wird CSS in HTML integriert?
-    - In HTML und In File in Line
     - Selektoren: Elementselektoren, Klassen, IDs
     - Eigenschaften und Werte: Farbe, Schriftart, Hintergrund
     - Gültikeits hirarchie
