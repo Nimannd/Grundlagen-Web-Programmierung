@@ -1,11 +1,6 @@
-# Grundlagen-Web-Programmierung
+# Willkommen
+Willkommen zum begleitenden Git Repo zum Kurs IN214 - Grundlagen Web-Programmierung
 
-Wir gehen bei dieser Beispileseite mal durch folgende HTML Tags durch.
-
-- Grundelemente DOCTYPE Head Body
-- Layout Elemente
-- Text Elemente
-- Aufzählungen
-- Grafiken
-
-Git Repo zum Kurs.
+Im Kurs gibt es folgende Teile:
+- [01 HTML Beispielseite](./01%20HTML%20Example%20Site/README.md), zur Erklärung von HTML
+- [02 CSS Beispielseite](./02%20CSS%20Example%20Site/README.md), zur Erklärung von HTML
