@@ -10,7 +10,6 @@
     --backgroundcolor: #f1f1f1;
   }
 
-
 * {
     box-sizing: border-box;
 }
@@ -155,6 +154,12 @@ footer {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    header h1  {
+       font-size: 36px;
+    }
+  }
+
 #intro{
     background-image: url('Titelbild.jpg');
     background-size: cover;
@@ -175,3 +180,33 @@ footer {
 #test1{
     background-color: var(--primarycolor);
 }
+
+.someComponent{
+    margin: 5px;
+    border: 2px solid #000;
+    padding: 15px 10px;
+    width: 194px;
+    height: 200px;
+    color: black !important;
+}
+
+blockquote {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#test1{}             /* Selects the element with id="test1" */
+.someComponent{}     /* Selects all elements with class="someComponent" */
+div.someComponent{}  /* Selects all <div> elements with class="someComponent" */
+blockquote {}        /* Selects all <blockquote> elements */
+* {}                 /* Selects all elements */
+p, a, span {}        /* Selects all <p>, <a>, and <span> elements */
+div p {}    /* Selects all <p> elements inside <div> elements */
+div > p {}  /* Selects all <p> elements where the parent is a <div> element */
+div + p {}  /* Selects the first <p> element that are placed immediately after <div> elements */
+div ~ p {}  /* Selects all <p> elements that are placed immediately after <div> elements */
+div p, div.someComponent > a > span {} /* Wild combinations */
+a:hover {}  /* Selects links on mouse-over */
+a::after {} /* Insert content after every <a> element */
+
+

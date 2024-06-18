@@ -1,5 +1,5 @@
 # HTML Example Site
-Wir gehen bei dieser Beispileseite mal durch folgende HTML Tags durch.
+Wir gehen bei dieser Beispielseite mal durch folgende HTML Tags durch.
 
 - Grundelemente DOCTYPE Head Body
 - Layout Elemente
@@ -10,5 +10,3 @@ Wir gehen bei dieser Beispileseite mal durch folgende HTML Tags durch.
 - Id, Class und Style Attribute
 - Tables
 - Forms
-
-Git Repo zum Kurs.
