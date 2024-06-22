@@ -42,6 +42,9 @@ header h1 {
     overflow: hidden;
     background-color: var(--primarycolordark);
     padding: 0 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* Style the topnav links */

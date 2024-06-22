@@ -11,6 +11,7 @@ Wir gehen bei dieser Beispielseite mal durch folgende CSS Themen durch:
         - [Web Safe](https://www.w3schools.com/css/css_font_websafe.asp)
         - [Fallbacks](https://www.w3schools.com/css/css_font_fallbacks.asp)
         - [Pairings](https://www.w3schools.com/css/css_font_pairings.asp)
+        - Custom Font einbinden
     - [Display](https://www.w3schools.com/css/css_display_visibility.asp)
     - [Position](https://www.w3schools.com/css/css_positioning.asp)
         - z-index: -1;
