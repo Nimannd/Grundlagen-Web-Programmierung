@@ -1,0 +1,28 @@
+:root {
+    --primarycolordark: #1976D2;
+    --primarycolorlight: #BBDEFB;
+    --primarycolor: #2196F3;
+    --iconColor: #ffffff;
+    --accentcolor: #FF9800;
+    --primarytextcolor: #212121;
+    --secondarytextcolor: #757575;
+    --dividercolor: #BDBDBD;
+    --backgroundcolor: #f1f1f1;
+}
+
+header {
+    background-color: var(--primarycolor);
+    color: var(--iconColor);
+}
+
+.navbar {
+    background-color: var(--primarycolordark);
+}
+
+#intro{
+    background-image: url('Titelbild.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+    padding: 30px;
+    padding-top: 250px;
+}

@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,68 +11,106 @@
 
 <body>
     <header>
-        <h1>Grundlagen Web-Programmierung</h1>
-        <p>Willkommen zum Kurs!</p>
-    </header>
-    <nav class="topnav">
-        <a href="startseite.html">Startseite</a>
-        <a href="blog.html">Blog</a>
-        <a href="#" class="material-icons" style="float:right">
-            login
-        </a>
-    </nav>
-    <div class="row">
-        <div class="leftcolumn">
-            <article class="card">
-                <div id="intro">
-                    <div style="background-color: white; padding: 30px;">
-                    <p>Im Kurs Grundlagen Web-Programmierung wirst du die theoretischen und praktischen Grundlagen für die Realisierung einer Weboberfläche erarbeiten.</p>
-                    <p>Solche Grundlagen sind:</p>
-                    <ul>
-                    <li>Das Grundlegende Prinzip eines Web Browsers, worauf jede Website basiert.</li>
-                    <li>HTML, CSS und JavaScript als Programmiersprachen.</li>
-                    <li><span style="font-size: 1rem;">Wie ich eine Website veröffentlichen kann.</span></li>
-                    <li><span style="font-size: 1rem;">Wie verschiedene Architekturen von modernen Webapplikationen aussehen.</span></li>
-                    </ul>
-                    <p>Bewertet wird der Kurs über eine Prüfung und einer Modularbeit. Die Arbeit wird daraus bestehen eine Website über dich selbst zu erstellen.</p>
-                    </div>
-                    </div>
-            </article>
+        <div class="container">
+            <div class="row text-center">
+                <h1>Grundlagen Web-Programmierung</h1>
+                <p>Willkommen zum Kurs!</p>
+            </div>
         </div>
-        <div class="rightcolumn">
-            <aside class="card">
-                <h3>Notiz am Rande</h3>
-                <img src="test.png" alt="Testbild" width="200px">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat.</p>
-            </aside>
-            <aside class="card">
-                <h4>Links</h4>
-                <ul>
-                    <li>
-                        <a href="https://www.w3schools.com/">W3S</a>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="startseite.html">Startseite</a>
                     </li>
-                    <li>
-                        <a href="https://wiki.selfhtml.org/">SelfHTML</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" class="material-icons">
+                            Login
+                        </a>
                     </li>
                 </ul>
-            </aside>
-        </div>
+            </div>
 
-    </div>
-    <footer>
+        </div>
+    </nav>
+    <main class="container">
         <div class="row">
-            <div class="leftcolumn">
-                <nav class="bottomnav">
+            <div class="col-8">
+                <article class="card">
+                    <div id="intro">
+                        <div style="background-color: white; padding: 30px;">
+                            <p>Im Kurs Grundlagen Web-Programmierung wirst du die theoretischen und praktischen
+                                Grundlagen
+                                für die Realisierung einer Weboberfläche erarbeiten.</p>
+                            <p>Solche Grundlagen sind:</p>
+                            <ul>
+                                <li>Das Grundlegende Prinzip eines Web Browsers, worauf jede Website basiert.</li>
+                                <li>HTML, CSS und JavaScript als Programmiersprachen.</li>
+                                <li><span style="font-size: 1rem;">Wie ich eine Website veröffentlichen kann.</span>
+                                </li>
+                                <li><span style="font-size: 1rem;">Wie verschiedene Architekturen von modernen
+                                        Webapplikationen aussehen.</span></li>
+                            </ul>
+                            <p>Bewertet wird der Kurs über eine Prüfung und einer Modularbeit. Die Arbeit wird daraus
+                                bestehen eine Website über dich selbst zu erstellen.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4">
+                <aside class="card">
+                    <img src="test.png" class="card-img-top" alt="Testbild" width="200px">
+                    <div class="card-body">
+                        <h3 class="card-title">Notiz am Rande</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh
+                            euismod tincidunt ut
+                            laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </aside>
+                <aside class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Links</h4>
+                        <ul class="card-text">
+                            <li>
+                                <a href="https://www.w3schools.com/">W3S</a>
+                            </li>
+                            <li>
+                                <a href="https://wiki.selfhtml.org/">SelfHTML</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="">
                     <a href="#">Impressum</a>
                     <a href="#">Datenschutz</a>
                 </nav>
             </div>
-            <div class="rightcolumn">
+            <div class="col text-end">
                 <p>© 2024 by Nico Mann</p>
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
