@@ -1,13 +1,15 @@
 # JS Example Site
-Wir gehen bei dieser Beispielseite mal durch folgende Javascript Themen durch.
+Wir gehen bei dieser Beispielseite durch folgende Javascript Themen durch.
 
 > Achtung: Damit die Web Server API Demo funktioniert, bitte den [Demo API Container](./ExampleApi/README.md) starten.
 
-1. Demonstration der Einbindung
-1. Den DOM Tree (Document Object Model) in meinem Browser bearbeiten. Siehe Burger Menü.
-1. APIs vom Browser benutzen. Siehe Alert Button.
-1. APIs von Web Servern benutzen. Siehe Wetter API.
-
+Demonstrationen:
+1. JS in Dev Tools
+1. Einbindung von JS (einbindung.html) anhand der logs
+1. Wie JS den DOM Tree (Document Object Model) in meinem Browser bearbeiten. Anhand Burger Menü. (script.html)
+1. Was APIs vom Browser sind. Siehe Alert Button (script.html)
+DOM API Beispiele.
+1. APIs von Web Servern benutzen. Siehe Wetter API. (script.html, mit gestartetem Example API)
 
 Beispiel Einsatzgebiete:
 - Interaktive Benutzeroberflächen

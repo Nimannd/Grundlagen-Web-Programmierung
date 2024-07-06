@@ -2,11 +2,13 @@ Das Beispile Wetter API ist ein Node.js Server. Dieser kann man als Docker Conta
 
 Es Simuliert ein Web API, welches von jemand anderem im Internet publiziert wurde.
 
-To build the image use
+Folgende Schritte um das API zu starten.
+1. Starte den Docker Deamon
+2. Builde das Docker Image mit diesem Befehl
 ```
 docker build -t weather-api .
 ```
-and then run it with
+3. Starte ein Container mit diesem Command
 ```
 docker run -p 8080:8080 -d weather-api
 ```
