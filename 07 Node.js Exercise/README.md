@@ -32,3 +32,12 @@ docker pull mongo
 docker run --name some-mongo -d -p 27017:27017 mongo
 ```
 `webserver.js` enthält noch keine Implementationen eines Webservers.
+
+### Folgende Commands benötigt es um zu anzufangen
+```
+cd '.\07 Node.js Exercise\'
+npm install
+docker pull mongo
+docker run --name some-mongo -d -p 27017:27017 mongo
+```
+Dann kannst du im webserver.js beginne zu entwickeln.
