@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('./partials/head'); %>
+
+    <body>
+        <%- include('./partials/header'); %>
+            <main class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <article class="card">
+                            <div class="card-header">
+                                Fehler
+                            </div>
+                            <div class="card-body">
+                                <div class="alert alert-danger" role="alert">
+                                    <h4 class="alert-heading"><%= errortitle %></h4>
+                                    <hr>
+                                    <p><%= error %></p>
+                                  </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <%- include('./partials/footer'); %>
+    </body>
+
+</html>

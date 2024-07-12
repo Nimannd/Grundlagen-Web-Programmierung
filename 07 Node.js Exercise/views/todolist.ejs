@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('./partials/head'); %>
+
+    <body>
+        <%- include('./partials/header'); %>
+            <main class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <article class="card">
+                            <div class="card-header">
+                                To-Do Liste
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush mb-3">
+                                    <% todos.forEach(function(item){ %>
+                                        <li class="list-group-item px-0 <%= item.done ? 'completed' : '' %>">
+                                            <form method="post" class="d-flex justify-content-between">
+                                                <span>
+                                                    <%= item.description %>
+                                                </span>
+                                                <div class="btn-group" role="group">
+                                                    <input type="hidden" name="id" value="<%= item.id %>">
+                                                    <input type="hidden" name="done" value="<%= item.done %>">
+                                                    <button class="btn btn-secondary" name="action" value="check"
+                                                        type="submit"><i class="material-icons">check</i></button>
+                                                    <button class="btn btn-secondary" name="action" value="delete"
+                                                        type="submit"><i class="material-icons">delete</i></button>
+                                                </div>
+                                            </form>
+                                        </li>
+                                        <% }); %>
+                                </ul>
+
+                                <form method="post" class="mb-3">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="description"
+                                            placeholder="Neue Aufgabe...">
+                                        <div class="input-group-append">
+                                            <button type="submit" name="action" value="create"
+                                                class="btn btn-primary"><i class="material-icons">add</i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <%- include('./partials/footer'); %>
+    </body>
+
+</html>

@@ -1,0 +1,51 @@
+:root {
+    --primarycolordark: #1976D2;
+    --primarycolorlight: #BBDEFB;
+    --primarycolor: #2196F3;
+    --iconColor: #ffffff;
+    --accentcolor: #FF9800;
+    --primarytextcolor: #212121;
+    --secondarytextcolor: #757575;
+    --dividercolor: #BDBDBD;
+    --backgroundcolor: #f1f1f1;
+}
+
+header {
+    background-color: var(--primarycolor);
+    color: var(--iconColor);
+}
+
+.navbar {
+    background-color: var(--primarycolordark);
+}
+
+.card {
+    color: var(--primarytextcolor);
+    margin: 10px 0;
+    padding: 15px auto;
+}
+
+.btn-primary {
+    background-color: var(--accentcolor);
+    border-color: var(--accentcolor);
+    color: var(--iconColor);
+}
+
+.btn-primary:hover {
+    background-color: var(--primarycolor);
+    border-color: var(--accentcolor);
+    color: var(--iconColor);
+}
+
+.weathericon {
+    float: right;
+}
+
+.dark{
+    background-color: var(--primarytextcolor);
+    color: var(--iconColor);
+}
+
+.completed{
+    text-decoration: line-through;
+}
