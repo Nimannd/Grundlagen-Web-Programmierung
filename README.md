@@ -8,3 +8,6 @@ Im Kurs gibt es folgende Teile:
 - [04 JS Example Site](./04%20JS%20Example%20Site\README.md), zur Erklärung von JavaScript
 - [05 JS Exercise](./05%20JS%20Exercise/README.md), Übung zu JavaScript
 - [06 Node.js Example](./06%20Node.js%20Example/README.md), zur Erklärung von Server seitiger Software mit Node.js
+- [07 Node.js Exercise](07%20Node.js%20Exercise/README.md), Übung zu Node.js
+- [08 React Example](./08%20React%20Example/README.md) , zur Erklärung von Client seitiger Software mit React
+- [09 React Exercise](./09%20React%20Exercise/README.md) , Übung zu React
