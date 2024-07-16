@@ -30,10 +30,4 @@ Nun kann man die App verändern und beim speichern, sollte sich die Browser Page
 ## Demo
 1. Starten und demonstrieren
 1. Bei NPM Run wird die App "gebuilded" und dann dem Browser serviert. `npm start` / `npm run build`
-1. Das HTML wird in React von index.html über das index.js herab gerendert. Vergleichbar zum Node.js Example.
-
-## Erstellen eines neuen React Apps
-```
-npm install create-react-app
-npx create-react-app caluclator
-```
+1. Das HTML wird in React von index.html über das index.js herab gerendert. Vergleichbar zum Node.js Example.s

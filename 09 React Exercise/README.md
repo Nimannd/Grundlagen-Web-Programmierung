@@ -26,6 +26,12 @@ Benutze dein Wissen aus der Example site. Wie man eine Datenbank benutzt und wie
 Du kannst Teile deines Server Codes aus "07 Node.js Exercise" wiederverwenden. Das Rendern des HTML wird ausgebaut und in React neu implementiert.
 Sprich in Express musst du keine EJS Templates mehr rendern und stattdessen einfach ein JSON zurückgeben.
 
+### API Testen
+Du kannst zuerst das API entwickeln und testen, ohne dass du eine SPA hast.
+Ein Get Request kannst du einfach mit einem Browser testen. Hingegen ein Post Request testest du am besten mit Tools wie Postman, Thunder Client (`rangav.vscode-thunder-client`), RapidAPI Client (`RapidAPI.vscode-rapidapi-client`)
+So kannst du beim Entwickeln mit React davon ausgehen, dass dein API funktioniert.
+`http://localhost/api/todo`
+
 ### DB Starten
 Die aktuellen Ausgangesdateien wie `webserver.js` enthalten ein Beispielcode, der die Verbindung zu einer MongoDB demonstiert.
 Wenn du die MongoDB zuerst wie folgt startest, dann kannst du mit `node webserver.js` auf diese verbinden.
@@ -34,6 +40,17 @@ docker pull mongo
 docker run --name some-mongo -d -p 27017:27017 mongo
 ```
 `webserver.js` enthält noch keine Implementationen eines Webservers. Die musst noch erstellt werden.
+
+### Erstellen einer neuen React App
+Du kannst eine neue React app erstellen, indem du im Ordner `09 React Exercise` folgende Befehle druchführst.
+```
+rm .\todoapp\placeholder
+npm install create-react-app
+npx create-react-app todoapp
+
+cd todoapp
+npm start
+```
 
 ### Quick Start Cheat Sheet
 1. In Temrinal 1 MonogDB in Docker starten
