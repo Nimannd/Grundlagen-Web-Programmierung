@@ -10,6 +10,7 @@ Demonstrationen:
 1. Was APIs vom Browser sind. Siehe Alert Button (script.html)
 DOM API Beispiele.
 1. APIs von Web Servern benutzen. Siehe Wetter API. (script.html, mit gestartetem Example API)
+1. Konzepte Erklären anhand Script files. z.B. `node ./demoScripts/trycatch.js`
 
 Beispiel Einsatzgebiete:
 - Interaktive Benutzeroberflächen
