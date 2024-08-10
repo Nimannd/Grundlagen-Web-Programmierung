@@ -42,5 +42,5 @@ node calculatorExpressServer.js
 ```
 1. **Demonstration** den selben Rechner, aber wir render das HTML nun mit dem ejs modul. Falls es ein Resultat hat wird es nun auch in die Seite eingebettet.
 ```
-node calculator2ExpressServer.js
+node calculatorExpressServer2.js
 ```
