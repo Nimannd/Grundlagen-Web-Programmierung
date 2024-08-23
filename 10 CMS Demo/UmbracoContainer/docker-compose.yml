@@ -1,0 +1,42 @@
+name: umbraco_env
+
+services:
+  init:
+    image: alpine
+    volumes:
+      - umbraco:/umbraco
+    command: ['sh', '-c', 'mkdir -p /umbraco/Media']
+    # The container will complete once the directory is created
+  umbraco:
+    image: nicomann/umbraco:latest
+    build: .
+    container_name: umbraco
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings:umbracoDbDSN=Data Source=umbracodb,1433;User ID=sa;Password=P@ssw0rd;Trust Server Certificate=True
+    ports:
+      - "80:8080"
+    volumes:
+      - umbraco:/umbraco
+    depends_on:
+      init:
+        condition: service_completed_successfully
+      umbracodb:
+        condition: service_started
+    networks:
+      - umbraco_network
+  umbracodb:
+    container_name: umbracodb
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=P@ssw0rd
+    ports:
+      - "1433:1433"
+    networks:
+      - umbraco_network
+volumes:
+  umbraco:
+networks:
+  umbraco_network:
+    driver: bridge

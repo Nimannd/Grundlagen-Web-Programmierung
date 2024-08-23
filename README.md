@@ -11,3 +11,4 @@ Im Kurs gibt es folgende Teile:
 - [07 Node.js Exercise](07%20Node.js%20Exercise/README.md), Übung zu Node.js
 - [08 React Example](./08%20React%20Example/README.md) , zur Erklärung von Client seitiger Software mit React
 - [09 React Exercise](./09%20React%20Exercise/README.md) , Übung zu React
+- [10 CMS Demo](./10%20CMS%20Demo/README.md) , Files zur Demonstration von CMS
