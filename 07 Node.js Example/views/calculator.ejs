@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('./partials/head'); %>
+
+<body>
+    <%- include('./partials/header'); %>
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <article class="card">
+                    <div class="card-header">
+                        Rechner
+                    </div>
+                    <div class="card-body">
+                        <form action="/calculate" method="post">
+                            <div class="mb-3">
+                                <label for="numbera" class="form-label">Zahl A</label>
+                                <input type="number" class="form-control" name="numbera" value="<%= numbera %>" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="operation" class="form-label">Operation</label>
+                                <select name="operation" class="form-select" aria-label="Default select example" value="<%= operation %>" required>
+                                    <option value="add">A + B</option>
+                                    <option value="subtract">A - B</option>
+                                    <option value="multiply">A * B</option>
+                                    <option value="divide">A / B</option>
+                                </select>
+                                <div id="operatorHelp" class="form-text">
+                                    Wähle die auszuführende Operation
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="numberb" class="form-label">Zahl B</label>
+                                <input type="number" class="form-control" name="numberb" value="<%= numberb %>" required>
+                            </div>
+
+                            <%if (result) { %>
+                                <div class="mb-3">
+                                    <div id="result" class="form-text">
+                                        <strong>Resultat: <%= result %> </strong>
+                                    </div>
+                                </div>
+                            <% } %>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <%- include('./partials/footer'); %>
+</body>
+
+</html>

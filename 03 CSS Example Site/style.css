@@ -1,0 +1,215 @@
+:root {
+    --primarycolordark: #1976D2;
+    --primarycolorlight: #BBDEFB;
+    --primarycolor: #2196F3;
+    --iconColor: #ffffff;
+    --accentcolor: #FF9800;
+    --primarytextcolor: #212121;
+    --secondarytextcolor: #757575;
+    --dividercolor: #BDBDBD;
+    --backgroundcolor: #f1f1f1;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: var(--primarycolor);
+    /* background-image: url("Titelbild.jpg"); */
+    background-size: cover;
+    background-position: 0 20%;
+    background-attachment: fixed;
+    color: var(--iconColor);
+}
+
+header h1 {
+    font-size: 8vw;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: var(--primarycolordark);
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Style the topnav links */
+.topnav a{
+    float: left;
+    display: block;
+    color: var(--iconColor);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav .material-icons{
+    padding: 11px 16px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: var(--primarycolorlight);
+    color: var(--primarytextcolor);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row{
+    padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: var(--primarycolordark);
+    margin-top: 20px;
+    color: var(--iconColor);
+}
+
+/* Style the top navigation bar */
+.bottomnav {
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+/* Style the topnav links */
+.bottomnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--iconColor);
+}
+
+/* Change color on hover */
+.bottomnav a:hover {
+    color: var(--primarytextcolor);
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+
+    .bottomnav a{
+        text-align: center;
+        float: none;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+
+    .bottomnav a{
+        display: inline-block;
+        float: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header h1  {
+       font-size: 36px;
+    }
+  }
+
+#intro{
+    background-image: url('Titelbild.jpg');
+    background-size: cover;
+    background-position: 0 30%;
+    padding: 30px;
+    padding-top: 250px;
+    margin: -20px;
+}
+
+.blogdetails{
+    font-size: 0.8em;
+    color: var(--secondarytextcolor);
+    font-style: italic;
+}
+
+
+/* Demonstrations abschnitt */
+#test1{
+    background-color: var(--primarycolor);
+}
+
+.someComponent{
+    margin: 5px;
+    border: 2px solid #000;
+    padding: 15px 10px;
+    width: 194px;
+    height: 200px;
+    color: black !important;
+}
+
+blockquote {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#test1{}             /* Selects the element with id="test1" */
+.someComponent{}     /* Selects all elements with class="someComponent" */
+div.someComponent{}  /* Selects all <div> elements with class="someComponent" */
+blockquote {}        /* Selects all <blockquote> elements */
+* {}                 /* Selects all elements */
+p, a, span {}        /* Selects all <p>, <a>, and <span> elements */
+div p {}    /* Selects all <p> elements inside <div> elements */
+div > p {}  /* Selects all <p> elements where the parent is a <div> element */
+div + p {}  /* Selects the first <p> element that are placed immediately after <div> elements */
+div ~ p {}  /* Selects all <p> elements that are placed immediately after <div> elements */
+div p, div.someComponent > a > span {} /* Wild combinations */
+a:hover {}  /* Selects links on mouse-over */
+a::after {} /* Insert content after every <a> element */
+
+

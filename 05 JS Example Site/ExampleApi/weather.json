@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "city": "London",
+        "temp": 15,
+        "weather": "Cloudy",
+        "icon": "/icons/cloudy.svg"
+    },
+    {
+        "id": 2,
+        "city": "New York",
+        "temp": 20,
+        "weather": "Sunny",
+        "icon": "/icons/sunny.svg"
+    },
+    {
+        "id": 3,
+        "city": "San Francisco",
+        "temp": 18,
+        "weather": "Foggy",
+        "icon": "/icons/foggy.svg"
+    },
+    {
+        "id": 4,
+        "city": "Tokyo",
+        "temp": 25,
+        "weather": "Sunny",
+        "icon": "/icons/sunny.svg"
+    }
+]

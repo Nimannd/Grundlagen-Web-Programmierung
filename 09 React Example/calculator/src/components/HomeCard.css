@@ -1,0 +1,12 @@
+#intro {
+    background-image: url('Titelbild.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+    padding: 30px;
+    padding-top: 250px;
+}
+
+#intro>div {
+    background-color: white;
+    padding: 30px;
+}
