@@ -1,7 +1,9 @@
 # JS Example Site
-Wir gehen bei dieser Beispielseite durch folgende Javascript Themen durch.
+In diesem Ordner gibt es das script.html File. Das ist eine Webseite die ein paar JS funktionen demonstriert. Unteranderem wie man mit JS einen Webserver aufrufen kann. dafür benötist du allerdings einen laufenden Webserver. Du kannst den [Demo API Container](./ExampleApi/README.md) dafür starten.
 
-> Achtung: Damit die Web Server API Demo funktioniert, bitte den [Demo API Container](./ExampleApi/README.md) starten.
+Du findes auch eine einbindung.html, die zeigt wie JS in HTML eingebunden wird.
+
+Du findest auch ein paar Node.JS Scripts in dem Ordner demoScripts. Diese sind für konkrete Demonstration im Unterricht gedacht. Diese kannst du mit dem Befehl `node ./demoScripts/trycatch.js` ausführen.
 
 Demonstrationen:
 1. JS in Dev Tools
@@ -21,3 +23,30 @@ Beispiel Einsatzgebiete:
 - Diagramme anhand Daten zeichnen, Daten in Echtzeit aktualisieren.
 - Ladezeit Optimierung
 - Benutzereinstellungen mit Local Storage oder Cookies.
+
+## JS Ressourcen
+Was ist JS? und wie binde ich es ein?
+- [JS Introduction](https://www.w3schools.com/js/js_intro.asp)
+- [Einbinden](https://www.w3schools.com/js/js_whereto.asp)
+- [Output](https://www.w3schools.com/js/js_output.asp)
+- [Statements](https://www.w3schools.com/js/js_statements.asp)
+- [Syntax](https://www.w3schools.com/js/js_syntax.asp)
+Variabeln 
+- [Variables](https://www.w3schools.com/js/js_variables.asp)
+- [Operatoren](https://www.w3schools.com/js/js_operators.asp)
+- [Datentypen](https://www.w3schools.com/js/js_datatypes.asp)
+- [Strings](https://www.w3schools.com/js/js_strings.asp)
+- [Objects](https://www.w3schools.com/js/js_objects.asp)
+    - inkl. den Unterseiten zum Thema Objects
+Logik
+- [Functions](https://www.w3schools.com/js/js_functions.asp)
+- [Events](https://www.w3schools.com/js/js_events.asp)
+- [If Else](https://www.w3schools.com/js/js_if_else.asp)
+- [Switch](https://www.w3schools.com/js/js_switch.asp)
+- [Loops](https://www.w3schools.com/js/js_loop_for.asp)
+
+
+
+
+
+
