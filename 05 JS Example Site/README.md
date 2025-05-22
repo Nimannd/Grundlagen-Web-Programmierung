@@ -31,6 +31,7 @@ Was ist JS? und wie binde ich es ein?
 - [Output](https://www.w3schools.com/js/js_output.asp)
 - [Statements](https://www.w3schools.com/js/js_statements.asp)
 - [Syntax](https://www.w3schools.com/js/js_syntax.asp)
+
 Variabeln 
 - [Variables](https://www.w3schools.com/js/js_variables.asp)
 - [Operatoren](https://www.w3schools.com/js/js_operators.asp)
@@ -38,6 +39,7 @@ Variabeln
 - [Strings](https://www.w3schools.com/js/js_strings.asp)
 - [Objects](https://www.w3schools.com/js/js_objects.asp)
     - inkl. den Unterseiten zum Thema Objects
+
 Logik
 - [Functions](https://www.w3schools.com/js/js_functions.asp)
 - [Events](https://www.w3schools.com/js/js_events.asp)
