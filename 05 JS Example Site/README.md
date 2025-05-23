@@ -37,6 +37,7 @@ Variabeln
 - [Operatoren](https://www.w3schools.com/js/js_operators.asp)
 - [Datentypen](https://www.w3schools.com/js/js_datatypes.asp)
 - [Strings](https://www.w3schools.com/js/js_strings.asp)
+- [String Methods](https://www.w3schools.com/js/js_string_methods.asp)
 - [Objects](https://www.w3schools.com/js/js_objects.asp)
     - inkl. den Unterseiten zum Thema Objects
 

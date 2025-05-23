@@ -12,3 +12,5 @@ docker build -t weather-api .
 ```
 docker run -p 8080:8080 -d weather-api
 ```
+4. Teste das API mit folgender Adresse
+[http://localhost:8080/weather](http://localhost:8080/weather)

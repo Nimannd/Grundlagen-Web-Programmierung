@@ -24,9 +24,9 @@ function scopeTest() {
 scopeTest();
 
 // Hoisting-Unterschiede
-console.log(m); // Ausgabe: undefined, `var` wird gehöist und ist vor der Deklaration definiert
-// console.log(n); // ungültig, führt zu einem Fehler, `let` wird nicht gehöist
-// console.log(o); // ungültig, führt zu einem Fehler, `const` wird nicht gehöist
+console.log(m); // Ausgabe: undefined, `var` wird gehöist und gilt dadurch schon vor der Deklaration
+// console.log(n); // ungültig, führt zu einem Fehler, `let` Variable noch nicht definiert
+// console.log(o); // ungültig, führt zu einem Fehler, `const` Variable noch nicht definiert
 
 var m = 100;
 let n = 200;
